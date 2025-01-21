@@ -11,7 +11,7 @@ f = N // 2
 m = M
 
 def boo(l):
-    if N+M-k >= (l * 2) + l:
+    if N+M-k >= l * 3:
         print(l)
     else:
         l -= 1
