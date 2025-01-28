@@ -13,4 +13,4 @@ result = 0
 for level in n_list:
     result += max_level+level
 
-print(result)
+print(result)               
