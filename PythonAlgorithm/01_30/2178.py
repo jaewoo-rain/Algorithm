@@ -12,11 +12,6 @@
 # 오른쪽(x+1, y)
 # 왼쪽(x-1, y)
 
-# 미로와 크기 입력 받기
-# 이동할 방향 정의
-# BFS 탐색 시작
-# 현재 위치에서 이동 가능한 위치 탐색
-# 최종 결과 출력
 
 # 입력 받기: 미로의 크기(N×M)와 미로의 정보를 입력받는다.
 # 이동 방향 정의: 상, 하, 좌, 우 4방향으로 이동할 수 있도록 dx, dy 리스트를 정의한다.
@@ -90,5 +85,3 @@ n,m = map(int, input().split())
 maze = [list(map(int,input().strip())) for _ in range(n)]
 
 print(bfs(maze, n, m))
-
-왼쪽(appendleft()), 오른쪽(append()) 추가
